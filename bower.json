@@ -1,0 +1,46 @@
+{
+  "name": "template",
+  "version": "0.0.0",
+  "authors": [
+    "YourName LastName <yourmail@mail.com>"
+  ],
+  "dependencies": {
+    "jquery": "latest",
+    "bootstrap": "latest",
+    "normalize-css": "latest"
+  },
+  "overrides": {
+    "jquery": {
+      "main": [
+        "./dist/jquery.min.js"
+      ]
+    },
+    "bootstrap": {
+      "main": [
+        "./dist/css/bootstrap.min.css",
+        "./dist/js/bootstrap.min.js"
+      ]
+    },
+    "normalize-css": {
+      "main": [
+        "./normalize.css"
+      ]
+    }
+  },
+  "description": "",
+  "main": "",
+  "moduleType": [
+    "amd"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ]
+}

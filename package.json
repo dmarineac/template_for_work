@@ -1,0 +1,36 @@
+{
+  "name": "",
+  "version": "",
+  "devDependencies": {
+    "browser-sync": "latest",
+    "gulp": "latest",
+    "gulp-autoprefixer": "latest",
+    "gulp-concat": "latest",
+    "gulp-google-cdn": "latest",
+    "gulp-htmlhint": "latest",
+    "gulp-htmlmin": "latest",
+    "gulp-imagemin": "latest",
+    "gulp-jade": "latest",
+    "gulp-main-bower-files": "latest",
+    "gulp-minify-css": "latest",
+    "gulp-notify": "latest",
+    "gulp-rename": "latest",
+    "gulp-stylus": "latest",
+    "gulp-uglify": "latest",
+    "gulp-uncss": "latest",
+    "wiredep": "latest"
+  },
+  "dependencies": {
+    "gulp-bump": "latest"
+  },
+  "description": "Необходимые пакеты для работы с стартовым шаблоном:",
+  "main": "gulpfile.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

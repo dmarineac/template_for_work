@@ -1,0 +1,31 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset='utf-8')
+        meta(name='description',content='')
+        meta(name='viewport', content='width=device-width, initial-scale=1')
+        block title
+            title Default title
+        link(rel='icon', href='./favicon.ico')
+
+        // bower:css
+        // endbower
+
+        link(rel='stylesheet',href='css/style.min.css')
+        link(rel='author',href='humans.txt')
+
+    //-    Yandex Metrika
+    //-    Google Analytics
+
+    body
+        include ./header
+        include ./article
+        include ./aside
+        include ./footer
+
+        // bower:js
+        // endbower
+
+        script(src='js/main.js')
+
+

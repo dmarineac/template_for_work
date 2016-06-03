@@ -1,0 +1,5 @@
+﻿#файл для git'a, что бы исключить отслеживание изменений некоторых файлов/папок
+/.idea
+/app/bower_components
+/node_modules
+/public
