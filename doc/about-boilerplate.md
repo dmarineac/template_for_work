@@ -1,27 +1,24 @@
 #Front-end app boilerplate / Шаблон для проектов
 ###Description / Описание
+
+Для работы с шаблоном у Вас должен быть установлен:
+   
+   - Node.js[>>](nodejsInfo.md)
+   - Gulp   [>>](gulpInfo.md)
+   - Bower  [>>](bowerInfo.md)
+    
 Какие пакеты  входят для работы со стартовым шаблоном:
 
     - Gulp(build system)
     - Bower(packages manager)
     - Jade(HTML preprocessor)
     - Stylus(CSS preprocessor)
-    - Git(Version control)
 
 
 ### Installation / Установка:
-1. У вас должен быть установлен node.js,
+1. Копируем в папку проекта, все файлы
 
-    Проверка, установлен ли **node.js** , введите данную команду в терминал:
-    ```
-    npm -v
-    ```
-
-    Если не вывело версию nod'a, то вы можете установить его [отсюда](https://nodejs.org/en/download/)
-
-2. Копируем в папку проекта, все файлы
-
-3. Затем, переходим через терминал в папку с проектом и вводим команду:
+2. Затем, переходим через терминал в папку с проектом и вводим команду:
     ```
     npm init
     ```
@@ -40,7 +37,7 @@ bower init
 ```
 bower update
 ```
-Все готово. Можно использовать.
+Все готово. Можно использовать. Полный список команд для работы можно посмотреть [тут](gulpInfo.md)
 
 # Use / Использование:
 
@@ -53,12 +50,12 @@ bower update
 
 
 
-###Список использованных плагинов и прочего для gulp [>>](./doc/gulp-plagins.md)
 
 ###Project structure / Структура проекта
+
 |-app/                                      исходникики проекта
-    |--bower_components/
-    |--css/
+    |--bower_components/                библиотеки bower'a
+    |--styles/      стили (CSS Preprocessor)
     |--img/
     |--js/
     |--template             повторяющиеся куски кода html(footer, header and etc)
